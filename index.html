@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+        <h1 class="title">Tic Tac Toe</h1>
+        <p class="subtext"><span class="player-name">Player 1</span>, make your move.</p>
+    </header>
+    <main class="game">
+		<div class="game-content">
+			<div class="gameboard-container">
+				<div class="gameboard text-center">
+					<div class="box"></div>
+					<div class="box"></div>
+					<div class="box"></div>
+					<div class="box"></div>
+					<div class="box"></div>
+					<div class="box"></div>
+					<div class="box"></div>
+					<div class="box"></div>
+					<div class="box"></div>
+				</div>
+			</div>
+		</div>
+		<div class="scoreboard-container">
+			<div class="scoreboard text-center">
+				<span class="scoreboard-header">Scoreboard</span><br>
+				<p>Player 1 wins: <span class="score playerOne">0</span><br>Player 2 wins: <span class="score playerTwo">0</span></p>
+				<button class="btn btn-clear btn-info">Clear Score</button>
+			</div>
+		</div>
+    </main>
+	<footer class="text-center hidden">
+		<button class="btn btn-game btn-info">New Game</button>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="app.js" defer></script>
+</body>
+</html>
