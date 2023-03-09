@@ -155,19 +155,6 @@
 		};
 	})();
 	
-	const ddCore = (() => {
-		var that = [];
-		
-		that.init = function(){
-			//const ddLogsManager = new ddLogsManager();
-			//console.log('Core');
-		}
-		
-		return that;
-	})();
-	
-	ddCore.init();
-	
 	const ddLogsManager = (() => {
 
 		function createLog(game, message, time = 0){
